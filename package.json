@@ -1,10 +1,10 @@
 {
   "version": "1.3.0",
-  "name": "export-as-markdown",
-  "description": "Export as markdown",
+  "name": "export-as-pure-markdown",
+  "description": "Export as pure markdown",
   "repository": {
     "type": "git",
-    "url": "https://github.com/inkdropapp/inkdrop-export-as-markdown.git"
+    "url": "https://github.com/Willian-Zhang/inkdrop-export-as-pure-markdown.git"
   },
   "main": "lib/index.js",
   "styleSheets": [],
@@ -12,7 +12,9 @@
     "lint": "eslint lib"
   },
   "dependencies": {
+    "image-size": "^1.0.2",
     "inkdrop-export-utils": "^3.2.7",
+    "node-html-parser": "^6.1.1",
     "sanitize-filename": "^1.6.3",
     "touch": "^3.1.0"
   },

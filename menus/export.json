@@ -6,10 +6,10 @@
         {
           "label": "Export",
           "submenu": [
-            { "label": "All Notes..", "command": "export-as-markdown:all" },
+            { "label": "All Pure Notes..", "command": "export-as-pure-markdown:all" },
             {
-              "label": "As Markdown..",
-              "command": "export-as-markdown:selections"
+              "label": "As Pure Markdown..",
+              "command": "export-as-pure-markdown:selections"
             }
           ]
         }
@@ -19,14 +19,14 @@
   "context-menu": {
     ".note-list-item-view": [
       {
-        "label": "Export As Markdown..",
-        "command": "export-as-markdown:selections"
+        "label": "Export As Pure Markdown..",
+        "command": "export-as-pure-markdown:selections"
       }
     ],
     ".sidebar-menu .sidebar-menu-book-list-item, .sidebar-book-filter-menu .sidebar-menu-book-list-item": [
       {
-        "label": "Export as Markdown..",
-        "command": "export-as-markdown:notebook"
+        "label": "Export as Pure Markdown..",
+        "command": "export-as-pure-markdown:notebook"
       }
     ]
   }
